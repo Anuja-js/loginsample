@@ -69,6 +69,8 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(
                 height: 20,
               ),
+
+
               TextFormField(
                 style: const TextStyle(
                   fontSize: 15.0,
@@ -135,6 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: const Text("LogIn"),
                 ),
               ),
+              SizedBox(height: 30,)
             ],
           ),
         ),

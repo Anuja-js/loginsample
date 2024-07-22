@@ -139,6 +139,7 @@ class _LogOutScreenState extends State<LogOutScreen> {
             actions: [
               TextButton(
                   onPressed: () {
+
                     Navigator.of(ctx1).pop();
                   },
                   child: const Text("Close")), TextButton(

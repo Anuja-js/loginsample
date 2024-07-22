@@ -23,14 +23,6 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
       ),
       home: const SplashScreen(),
-      // routes: {
-      //   "scren_1":(ctx){
-      //     return ScreenTwo();
-      //   },
-      //   "screen_2":(ctx){
-      //     return ScreenOne();
-      //   }
-      // },
     );
   }
 }
